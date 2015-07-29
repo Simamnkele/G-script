@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECTraining_G-Script", "ECTraining_G-Script\ECTraining_G-Script.csproj", "{71AF801E-BF05-4776-82E8-D1058C1E1BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F1EDF861-C8A7-487D-B23F-6BC17DB301E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F7E41BF9-B677-4487-84E8-66E125A290E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71AF801E-BF05-4776-82E8-D1058C1E1BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AF801E-BF05-4776-82E8-D1058C1E1BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AF801E-BF05-4776-82E8-D1058C1E1BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AF801E-BF05-4776-82E8-D1058C1E1BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1EDF861-C8A7-487D-B23F-6BC17DB301E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EDF861-C8A7-487D-B23F-6BC17DB301E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EDF861-C8A7-487D-B23F-6BC17DB301E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EDF861-C8A7-487D-B23F-6BC17DB301E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E41BF9-B677-4487-84E8-66E125A290E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E41BF9-B677-4487-84E8-66E125A290E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E41BF9-B677-4487-84E8-66E125A290E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E41BF9-B677-4487-84E8-66E125A290E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
