@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
-using BLL;
-using DAL;
+using BusinessLogic;
+using DataAccess;
 using System.Data.Entity;
-using ECTraining_G_Script.Models;
+using WebSite2;
 
 public partial class eClient_Client_Company : System.Web.UI.Page
 {
@@ -33,8 +33,8 @@ public partial class eClient_Client_Company : System.Web.UI.Page
     public void UpdateCompanyDetails_Click(object sender, EventArgs e)
     {
         var user = new ApplicationUser();
-        //var manager = new UserManager { };
-        DBHandler myHandler = new DBHandler();
+        var manager = new UserManager { };
+        BusinessLogicHandler myHandler = new BusinessLogicHandler();
 
         Company company = new Company();
 
@@ -44,11 +44,11 @@ public partial class eClient_Client_Company : System.Web.UI.Page
 
         foreach (var item in companyList)
         {
-            /*CompanyName.Text = item.Name;
+            CompanyName.Text = item.Name;
             ContactPerson.Text = item.ContactPerson;
             CellNo.Text = item.CellNo;
             TellNo.Text = item.TellNo;
-            Address.InnerText = item.Address;*/
+            Address.InnerText = item.Address;
         }
 
     }
