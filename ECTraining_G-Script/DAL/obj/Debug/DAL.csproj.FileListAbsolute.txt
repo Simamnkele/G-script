@@ -3,3 +3,8 @@ C:\Users\Makhomba\Desktop\ECTraining_G-Script\DAL\bin\Debug\DAL.pdb
 C:\Users\Makhomba\Desktop\ECTraining_G-Script\DAL\obj\Debug\DAL.dll
 C:\Users\Makhomba\Desktop\ECTraining_G-Script\DAL\obj\Debug\DAL.pdb
 C:\Users\Makhomba\Desktop\ECTraining_G-Script\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Makhomba\Desktop\G-script\ECTraining_G-Script\DAL\bin\Debug\DAL.dll
+C:\Users\Makhomba\Desktop\G-script\ECTraining_G-Script\DAL\bin\Debug\DAL.pdb
+C:\Users\Makhomba\Desktop\G-script\ECTraining_G-Script\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Makhomba\Desktop\G-script\ECTraining_G-Script\DAL\obj\Debug\DAL.dll
+C:\Users\Makhomba\Desktop\G-script\ECTraining_G-Script\DAL\obj\Debug\DAL.pdb
