@@ -6,8 +6,8 @@ using System.Web.ApplicationServices;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Threading.Tasks;
-using DataAccess;
-using BusinessLogic;
+using DAL;
+using BLL;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
@@ -15,12 +15,11 @@ using Microsoft.Owin.Security;
 using System.Data;
 using System.Data.Entity;
 using System.Data.SqlClient;
-using WebSite2;
 
 public partial class eClient_Request_Training : System.Web.UI.Page
 {
-    UserManager manager = new UserManager();
-    BusinessLogicHandler myHandler = new BusinessLogicHandler();
+   // UserManager manager = new UserManager();
+    DBHandler myHandler = new DBHandler();
    
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -62,7 +61,7 @@ public partial class eClient_Request_Training : System.Web.UI.Page
 
 
 
-    public void Confirm_Click(object sender, EventArgs e)
+  /*  public void Confirm_Click(object sender, EventArgs e)
     {
         eQuote.Visible = true;
 
@@ -96,5 +95,5 @@ public partial class eClient_Request_Training : System.Web.UI.Page
     protected void Remove_Sign_Click(object sender, EventArgs e)
     {
         mySelection.Dispose();
-    }
+    }*/
 }
