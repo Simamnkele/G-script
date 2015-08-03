@@ -105,8 +105,8 @@
             </div>  
             <br/>
                 <div class="form-group">
-            <asp:Button runat="server" ID="Button1" Text="Confirm" CssClass="btn-primary" OnClick="Confirm_Click" />
-            <asp:Button runat="server" ID="Button2" Text="Cancel" CssClass="btn-danger" OnClick="Cancel_Click" />
+            <asp:Button runat="server" ID="Button1" Text="Confirm" CssClass="btn-primary"  />
+            <asp:Button runat="server" ID="Button2" Text="Cancel" CssClass="btn-danger"  />
         </div>        
         </div>
         
